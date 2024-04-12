@@ -36,6 +36,8 @@ The goal is to design and implement a machine learning-based recommendation syst
 
 ## Building Various Models
 
+![Considered Models](models.png)
+
 ### Popularity-Based Recommendation Systems:
 This algorithm recommends the top N songs based on play counts, overcoming the cold start problem for new users.
 
@@ -50,6 +52,8 @@ Groups users/items into clusters based on similarities, improving recommendation
 
 ### Iterative Singular Value Thresholding (IST):
 Matrix factorization technique for sparse datasets, effectively filling missing values.
+
+![IST Algorithm](IST_Algorithm.png)
 
 ### Content Based Recommendation Systems:
 Utilizes item attributes/features to make recommendations, effective for niche items.
